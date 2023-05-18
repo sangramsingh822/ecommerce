@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,300&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+.active{
+  border-bottom: 2px solid black;
+}
+
+
+/* page not found css */
+.pnf{
+  display: flex;
+  min-height: 65vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.pnf-title{
+font-size: 100px;
+font-weight: 700;
+font-style: italic;
+}
+.pnf-btn{
+  text-decoration: none;
+  color:black;
+  border: 1px solid black;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+.pnf-btn:hover{
+  color:white;
+  background-image: linear-gradient(to right, rgb(31, 64, 231) , rgb(33, 46, 165));
+}
+
+
+/* footer css */
+.footer{
+  text-align: center;
+  color: white;
+  padding: 25px;
+  background: rgb(31,44,84);
+background: linear-gradient(90deg, rgba(31,44,84,1) 16%, rgba(6,6,57,1) 54%, rgba(4,19,20,1) 100%);
+}
+
+.footer a{
+
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+.footer a:hover{
+  color: aqua;
+  border-bottom: 1px solid rgb(229, 89, 89);
+}
+/* =========contact us ========= */
+.contactus {
+  margin: 0;
+  padding: 0;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ==================== */
+.registerform{
+  margin-top:70px;
+width: 50% !important;
+background: #65647C;
+}
+
+.headingh1{
+  background: rgb(59, 64, 82) !important;
+background: linear-gradient(90deg, rgb(74, 81, 102) 16%, rgba(6,6,57,1) 54%, rgb(50, 50, 71) 100%) !important;
+}
